@@ -1,0 +1,70 @@
+remote_theme: "mmistakes/minimal-mistakes@4.19.1"
+minimal_mistakes_skin: "dark"   # "default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+    #  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-seo-tag
+#logo: "/assets/images/masthead.png"
+masthead_title: "HomePage"
+search: true
+# Site Author
+author:
+  name: "Joseph Kingstone"
+#  avatar: "/assets/images/bc-profile.jpg"
+  bio: "xDev•malDev"
+  location: "West Coast"
+  links:
+    - label: "HomePage"
+      url: "https://josephkingstone.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/josephkingstone"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/n00bRage"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/joseph-kingstone-755b7099"
+#teaser: assets/images/slae32-teaser.png
+
+# Google Analytics
+#google_analytics: G-8ZGTLNXWYL
+
+#Site Settings
+locale: "en-US"
+title: "Kingstone"
+title_separator: "-"
+name: "Kingstone"
+description: "Red Teaming"
+url: "https://josephkingstone.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: "josephkingstone/josephkingstone.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+breadcrumbs: false # true, false (default)
+words_per_minute: 120
+
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+    #  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
