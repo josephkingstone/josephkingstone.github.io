@@ -1,4 +1,4 @@
-Boku / Bobby Cooke  
+Joseph Kingstone  
 [LinkedIn](https://www.linkedin.com/in/joseph-kingstone-755b7099/) • [Twitter](https://twitter.com/n00bRage) • [GitHub](https://github.com/josephkingstone)  
 CRTP|CRTO|OSCP|CISSP  
 
